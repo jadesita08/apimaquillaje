@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
 from managers.clientesManager import ClientesManager
-from models import Cliente 
+from models.models import Cliente 
 
 router = APIRouter()
 manager = ClientesManager()
