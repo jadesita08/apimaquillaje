@@ -1,5 +1,5 @@
 from managers.conexionManager import ConexionManager
-from models import Producto
+from models.models import Producto
 
 class ProductosManager:
     def __init__(self):
