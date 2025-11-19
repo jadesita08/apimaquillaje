@@ -1,5 +1,5 @@
 from managers.conexionManager import ConexionManager
-from models import Venta
+from models.models import Venta
 
 class VentasManager:
     def __init__(self):
