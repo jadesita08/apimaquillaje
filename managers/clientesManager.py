@@ -1,5 +1,5 @@
 from managers.conexionManager import ConexionManager
-from models import Cliente
+from models.models import Cliente
 
 class ClientesManager:
     def __init__(self):
