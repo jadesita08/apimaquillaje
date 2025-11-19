@@ -7,7 +7,7 @@ manager = ProductosManager()
 
 @router.post("/", status_code=status.HTTP_201_CREATED)
 def crear_producto(producto: Producto):
-    # La validación de fallos se deja al framework/Manager si falla
+    
     producto_id = manager.crear_producto(producto)
     return {"id": producto_id, "mensaje": "Producto creado exitosamente"}
 
